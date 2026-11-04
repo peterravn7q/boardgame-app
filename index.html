@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attic</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Attic</a></h1>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+            <div class="dropdown-content">
+                <a href="index.html" class="fa-regular fa-heart">Likede spil</a>
+                <a href="profile.html" class="fa-regular fa-user">Profil</a>
+                <a href="english.html" class="fa-solid fa-language">English</a>
+            </div>
+    </header>
+    <main>
+        <box direction="row" align="center" gap={2}>
+            <icon name="fa-solid fa-magnifying-glass"></icon>
+            <input type="text" placeholder="Søg efter spil..." id="searchInput" variant="borderless">
+        </box>
+        
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
