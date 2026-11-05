@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attic</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="icon" type="image/x-icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <header>
-        <h1><a href="index.html">Attic</a></h1>
+        <h1><a href="index.html" class="title">Attic</a></h1>
         <div class="dropdown">
             <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
             <div class="dropdown-content">
-                <a href="index.html" class="fa-regular fa-heart">Likede spil</a>
-                <a href="profile.html" class="fa-regular fa-user">Profil</a>
-                <a href="english.html" class="fa-solid fa-language">English</a>
+                <a href="index.html"><i class="fa-regular fa-heart"></i>Likede spil</a>
+                <a href="profile.html"><i class="fa-regular fa-user"></i>Profil</a>
+                <a href="english.html"><i class="fa-solid fa-language"></i>English</a>
             </div>
     </header>
     <main>
-        <box direction="row" align="center" gap={2}>
+        <section class="search">
             <icon name="fa-solid fa-magnifying-glass"></icon>
             <input type="text" placeholder="Søg efter spil..." id="searchInput" variant="borderless">
-        </box>
-        
+        </section>
+        <section class="slideshow">
+
+        </section>
+        <section class="turnering">
+
+        </section>
+        <section class="gotm">
+            
+        </section>
     </main>
+    <footer>
+        <nav class="footer-nav">
+            <i href="index.html" class="fa-regular fa-hoouse">Hjem</i>
+            <i href="events.html" class="fa-regular fa-calendar">Events</i>
+            <i href="games.html" class="fa-solid fa-dice">Spil</i>
+            <i href="friends.html" class="fa-regular fa-user">venner</i>
+        </nav>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
