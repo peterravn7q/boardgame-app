@@ -115,3 +115,24 @@ header i:hover {
     border-radius: 50px;
     color: #897769;
 }
+
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 120%;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #0f5c57;
+    text-decoration: none;
+}
+.footer-nav a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #0f5c57;
+}
