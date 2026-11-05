@@ -101,6 +101,7 @@ header i:hover {
     align-items: center;
     justify-content: right;
     margin: 10px;
+    position: relative;
 }
 
 .search input[type="text"] {
@@ -116,11 +117,44 @@ header i:hover {
     color: #897769;
 }
 
+.gotm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+.gotm-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gotm-highlight {
+    color: #0f5c57;
+    font-size: 200%;
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-weight: light;
+}
+#gotm-highlight i {
+    color: #f2b83a;
+}
+#month {
+    font-size: 100%;
+    color: #0f5c57;
+    font-family: 'figtree', sans-serif;
+}
+
+
 footer {
     background-color: white;
     padding: 20px;
     text-align: center;
     font-size: 120%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
 }
 .footer-nav {
     display: flex;
