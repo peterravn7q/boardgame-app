@@ -12,7 +12,7 @@
 }
 body {
     font-family: 'Figtree', sans-serif;
-    background-color: #9d8778;
+    background-color: #f6f1ea;
 }
 
 h1 a {
@@ -28,12 +28,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    background-color:#9d8778;
 }
 
 header i {
     color: white;
     height: auto;
     width: 100%;
+    
 }
 header i:hover {
     cursor: pointer;
